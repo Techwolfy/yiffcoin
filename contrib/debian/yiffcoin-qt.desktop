@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Yiffcoin
+Comment=Yiffcoin P2P Cryptocurrency
+Comment[fr]=Yiffcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Yiffcoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/yiffcoin-qt %u
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/yiffcoin128.png
+MimeType=x-scheme-handler/yiffcoin;
+Categories=Office;

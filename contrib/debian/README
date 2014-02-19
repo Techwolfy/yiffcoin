@@ -1,0 +1,20 @@
+This directory contains files used to package yiffcoind/yiffcoin-qt
+for Debian-based Linux systems.
+
+If you compile yiffcoind/yiffcoin-qt yourself, there are some
+useful files here:
+
+yiffcoin: URI support
+--------------------
+
+yiffcoin-qt.desktop  (Gnome / Open Desktop)
+To install:
+  sudo desktop-file-install yiffcoin-qt.desktop
+  sudo update-desktop-database
+
+If you build yourself, you will either need to modify the paths in
+the .desktop file or copy or symlink your yiffcoin-qt binary to /usr/bin
+and the ../../share/pixmaps/yiffcoin128.png to /usr/share/pixmaps
+
+yiffcoin-qt.protocol (KDE)
+

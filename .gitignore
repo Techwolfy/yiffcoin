@@ -1,0 +1,34 @@
+src/*.exe
+src/yiffcoin
+src/yiffcoind
+src/test_yiffcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.yiffcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+yiffcoin-qt
+Yiffcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+yiffcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

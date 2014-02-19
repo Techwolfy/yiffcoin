@@ -1,0 +1,6 @@
+yiffcoin-qt usr/bin
+share/pixmaps/yiffcoin32.xpm usr/share/pixmaps
+share/pixmaps/yiffcoin16.xpm usr/share/pixmaps
+share/pixmaps/yiffcoin128.png usr/share/pixmaps
+debian/yiffcoin-qt.desktop usr/share/applications
+debian/yiffcoin-qt.protocol usr/share/kde4/services/
