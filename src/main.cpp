@@ -1065,6 +1065,13 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 69 * COIN;
 
+    // 100x reward after genesis until block 10 inclusive, 10x reward until block 10000 inclusive
+    if (nHeight <= 10) {
+        nSubsidy *= 100;
+    } else if (nHeight <= 10000) {
+        nSubsidy *= 10;
+    }
+
     // Subsidy is cut in half every 1380000 blocks, which will occur approximately every 3 years
     nSubsidy >>= (nHeight / 1380000); // Yiffcoin: 1380k blocks in ~3 years
 
