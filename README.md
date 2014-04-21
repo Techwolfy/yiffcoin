@@ -1,7 +1,7 @@
 Yiffcoin integration/staging tree
 ================================
 
-http://www.yiffcoin.org
+http://techwolf.tk
 
 Copyright (c) 2009-2013 Yiffcoin Developers
 Copyright (c) 2011-2013 Yiffcoin Developers
@@ -19,7 +19,7 @@ The rest is the same as Yiffcoin.
  - 8640 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Yiffcoin client sofware, see http://www.yiffcoin.org.
+the Yiffcoin client sofware, see http://techwolf.tk.
 
 License
 -------
@@ -37,8 +37,7 @@ If it is a simple/trivial/non-controversial change, then one of the Yiffcoin
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
-submitter will be asked to start a discussion (if they haven't already) on the
-[mailing list](http://sourceforge.net/mailarchive/forum.php?forum_name=yiffcoin-development).
+submitter will be asked to start a discussion (if they haven't already) in the pull request notes or in [IRC](irc://irc.ircfox.net/yiffcoin).
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
