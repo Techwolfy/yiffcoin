@@ -3,8 +3,9 @@ Yiffcoin integration/staging tree
 
 http://techwolf.tk
 
-Copyright (c) 2009-2013 Yiffcoin Developers
-Copyright (c) 2011-2013 Yiffcoin Developers
+Copyright (c) 2009-2014 Bitcoin Developers
+Copyright (c) 2011-2014 Litecoin Developers
+Copyright (c) 2014 Yiffcoin Developers
 
 What is Yiffcoin?
 ----------------
